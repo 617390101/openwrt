@@ -9,6 +9,15 @@ msgstr ""
 msgid "Zerotier is an open source, cross-platform and easy to use virtual LAN"
 msgstr "Zerotier是一个开源，跨平台，而且适合内网穿透互联的傻瓜配置虚拟 VPN LAN"
 
+msgid "Zerotier RUNNING"
+msgstr "Zerotier 运行中"
+
+msgid "Zerotier NOT RUNNING"
+msgstr "Zerotier 未运行"
+
+msgid "ZeroTier Network ID"
+msgstr "ZeroTier 网络 ID"
+
 msgid "Auto NAT Clients"
 msgstr "自动允许客户端NAT"
 
