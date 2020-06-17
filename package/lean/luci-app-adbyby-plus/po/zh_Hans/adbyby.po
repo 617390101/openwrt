@@ -1,10 +1,10 @@
 msgid "ADBYBY Plus +"
 msgstr "广告屏蔽大师 Plus+"
 
-msgid "<strong><font color=\"green\">Adbyby Plus + is Running</font></strong>"
+msgid "<strong><font color=\"green\">Adbyby Plus + Running</font></strong>"
 msgstr "<strong><font color=\"green\">广告屏蔽大师 Plus + 正在运行</font></strong>"
 
-msgid "<strong><font color=\"red\">Adbyby Plus + is Not Running</font></strong>"
+msgid "<strong><font color=\"red\">Adbyby Plus + Not Running</font></strong>"
 msgstr "<strong><font color=\"red\">广告屏蔽大师 Plus + 没有运行</font></strong>"
 
 msgid "Adbyby Plus + can filter all kinds of banners, popups, video ads, and prevent tracking, privacy theft and a variety of malicious websites<br /><font color=\"red\">Plus + version combination mode can operation with Adblock Plus Host,filtering ads without losing bandwidth</font>"
