@@ -13,11 +13,11 @@ msgstr "停用"
 msgid "Log"
 msgstr "日志"
 
-msgid "ShadowSocksR is running"
-msgstr "ShadowSocksR 客户端运行中"
+msgid "ShadowSocksR Plus+ running"
+msgstr "ShadowSocksR Plus+ 运行中"
 
-msgid "ShadowSocksR is not running"
-msgstr "ShadowSocksR 客户端未运行"
+msgid "ShadowSocksR Plus+ not running"
+msgstr "ShadowSocksR Plus+ 未运行"
 
 msgid "Global Setting"
 msgstr "全局设置"
