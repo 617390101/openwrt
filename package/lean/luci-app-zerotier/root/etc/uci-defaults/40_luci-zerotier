@@ -13,5 +13,13 @@ uci -q batch <<-EOF >/dev/null
 	commit firewall
 EOF
 
+uci set network.ZeroTier=interface
+uci set network.ZeroTier.ifname='ztmjfmfyq5'
+uci set network.ZeroTier.proto='none'
+uci commit network
+
+uci set firewall.vpn.network='vpn0 ZeroTier'
+uci commit firewall
+
 rm -f /tmp/luci-indexcache
 exit 0
