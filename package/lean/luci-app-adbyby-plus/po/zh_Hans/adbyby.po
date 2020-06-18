@@ -1,16 +1,16 @@
 msgid "Adbyby Plus+"
 msgstr "广告屏蔽大师 Plus+"
 
-msgid "<strong><font color=\"green\">Adbyby Plus+ Running</font></strong>"
+msgid "<strong><font color=\"green\">Adbyby Plus+ RUNNING</font></strong>"
 msgstr "<strong><font color=\"green\">广告屏蔽大师 Plus+ 正在运行</font></strong>"
 
-msgid "<strong><font color=\"red\">Adbyby Plus+ Not Running</font></strong>"
+msgid "<strong><font color=\"red\">Adbyby Plus+ NOT RUNNING</font></strong>"
 msgstr "<strong><font color=\"red\">广告屏蔽大师 Plus+ 未运行</font></strong>"
 
-msgid "Adbyby Plus+ can filter all kinds of banners, popups, video ads, and prevent tracking, privacy theft and a variety of malicious websites<br /><font color=\"red\">Plus + version combination mode can operation with Adblock Plus Host,filtering ads without losing bandwidth</font>"
+msgid "Adbyby Plus + can filter all kinds of banners, popups, video ads, and prevent tracking, privacy theft and a variety of malicious websites<br /><font color=\"red\">Plus + version combination mode can operation with Adblock Plus Host,filtering ads without losing bandwidth</font>"
 msgstr "广告屏蔽大师 Plus+ 可以全面过滤各种横幅、弹窗、视频广告，同时阻止跟踪、隐私窃取及各种恶意网站<br /><font color=\"red\">Plus+ 版本可以和 Adblock Plus Host 结合方式运行，过滤广告不损失带宽</font>"
 
-msgid "Adbyby Plus+ Settings"
+msgid "Adbyby Plus + Settings"
 msgstr "广告屏蔽大师 Plus+（支持  AdGuardHome /Host / DNSMASQ 规则）"
 
 msgid "Base Setting"
@@ -22,7 +22,7 @@ msgstr "运行模式"
 msgid "Global Mode (The slowest and the best effects)"
 msgstr "全局模式（最慢, 效果最好）"
 
-msgid "Plus+ Mode (Filter domain name list and blacklist website.Recommended)"
+msgid "Plus + Mode (Filter domain name list and blacklist website.Recommended)"
 msgstr "Plus+ 模式（只过滤列表内域名结合ABP名单。推荐！）"
 
 msgid "No filter Mode (Must set in Client Filter Mode Settings manually)"
