@@ -11,7 +11,7 @@ PKG_NAME:=luci-app-webshell
 PKG_VERSION:=1
 PKG_RELEASE:=1
 
-include $(INCLUDE_DIR)/package.mk
+include $(TOPDIR)/feeds/luci/luci.mk
 
 define Package/luci-app-webshell
   SECTION:=LuCI
