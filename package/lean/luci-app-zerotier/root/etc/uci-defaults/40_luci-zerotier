@@ -18,7 +18,7 @@ uci set network.ZeroTier.ifname='ztmjfmfyq5'
 uci set network.ZeroTier.proto='none'
 uci commit network
 
-uci set firewall.vpn.network='vpn0 ZeroTier'
+uci add_list firewall.vpn.network='ZeroTier'
 uci commit firewall
 
 rm -f /tmp/luci-indexcache
