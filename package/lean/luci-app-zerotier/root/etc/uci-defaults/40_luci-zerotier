@@ -5,21 +5,37 @@ uci -q batch <<-EOF >/dev/null
 	add ucitrack zerotier
 	set ucitrack.@zerotier[-1].init=zerotier
 	commit ucitrack
-  delete firewall.zerotier
+	delete firewall.zerotier
 	set firewall.zerotier=include
 	set firewall.zerotier.type=script
 	set firewall.zerotier.path=/etc/zerotier.start
 	set firewall.zerotier.reload=1
 	commit firewall
+
+	set network.ZeroTier=interface
+	set network.ZeroTier.ifname='ztmjfmfyq5'
+	set network.ZeroTier.proto='none'
+	commit network
+
+	set firewall.ZeroTier=zone
+	set firewall.ZeroTier.name='ZeroTier'
+	set firewall.ZeroTier.input='ACCEPT'
+	set firewall.ZeroTier.forward='ACCEPT'
+	set firewall.ZeroTier.output='ACCEPT'
+	set firewall.ZeroTier.masq='1'
+	set firewall.ZeroTier.network='ZeroTier'
+
+	set firewall.ZeroTiertowan=forwarding
+	set firewall.ZeroTiertowan.src='ZeroTier'
+	set firewall.ZeroTiertowan.dest='wan'
+
+	set firewall.ZeroTiertolan=forwarding
+	set firewall.ZeroTiertolan.src='ZeroTier'
+	set firewall.ZeroTiertolan.dest='lan'
+
+	commit firewall
+
 EOF
-
-uci set network.ZeroTier=interface
-uci set network.ZeroTier.ifname='ztmjfmfyq5'
-uci set network.ZeroTier.proto='none'
-uci commit network
-
-uci add_list firewall.vpn.network='ZeroTier'
-uci commit firewall
 
 rm -f /tmp/luci-indexcache
 exit 0
