@@ -33,6 +33,10 @@ uci -q batch <<-EOF >/dev/null
 	set firewall.ZeroTiertolan.src='ZeroTier'
 	set firewall.ZeroTiertolan.dest='lan'
 
+	set firewall.lantoZeroTier=forwarding
+	set firewall.lantoZeroTier.src='lan'
+	set firewall.lantoZeroTier.dest='ZeroTier'
+
 	commit firewall
 
 EOF
