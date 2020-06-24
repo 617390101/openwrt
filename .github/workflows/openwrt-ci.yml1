@@ -135,7 +135,6 @@ jobs:
 
           # 常用LuCI插件选择:
           cat >> .config <<EOF
-          CONFIG_PACKAGE_luci-proto-bonding=y
           CONFIG_PACKAGE_luci-app-ddns=y
           CONFIG_PACKAGE_ddns-scripts_aliyun=y
           CONFIG_PACKAGE_ddns-scripts_dnspod=y
@@ -155,7 +154,6 @@ jobs:
           CONFIG_PACKAGE_luci-app-vlmcsd=y
           CONFIG_PACKAGE_luci-app-zerotier=y
           CONFIG_PACKAGE_luci-app-nlbwmon=y
-          CONFIG_PACKAGE_libustream-openssl=y
           EOF
 
           # 
