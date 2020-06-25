@@ -13,7 +13,7 @@ uci -q batch <<-EOF >/dev/null
 	commit firewall
 
 	set network.ZeroTier=interface
-	set network.ZeroTier.ifname='ztmjfmfyq5'
+	set network.ZeroTier.ifname='ztrfyklo2d'
 	set network.ZeroTier.proto='none'
 	commit network
 
